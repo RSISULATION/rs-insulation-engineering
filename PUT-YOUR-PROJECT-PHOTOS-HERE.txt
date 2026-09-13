@@ -1,0 +1,1 @@
+Add your actual RS Insulation project photographs here, then update the image paths in index.html.

@@ -1,0 +1,2 @@
+const menuBtn=document.querySelector('.menu-btn');const nav=document.querySelector('#mainNav');if(menuBtn){menuBtn.addEventListener('click',()=>nav.classList.toggle('open'));document.querySelectorAll('#mainNav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));}
+function copyEmail(){navigator.clipboard.writeText('rsinsulatio.engineering82@gmail.com').then(()=>alert('Email copied!')).catch(()=>alert('Email: rsinsulatio.engineering82@gmail.com'));}
